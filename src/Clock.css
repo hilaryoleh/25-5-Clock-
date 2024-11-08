@@ -1,0 +1,79 @@
+#break-label,
+#session-label {
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+#break-decrement,
+#session-decrement {
+    margin-left: 30%;
+    font-size: 50px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: bisque
+}
+
+#break-increment,
+#session-increment {
+    margin-left: 30%;
+    font-size: 53px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: bisque
+}
+
+#break-length,
+#session-length {
+    font-size: 50px;
+    margin-left: 45%
+}
+
+#break-decrement:hover {
+    background-color: bisque;
+}
+
+#break-increment:hover {
+    background-color: bisque;
+}
+
+#session-decrement:hover {
+    background-color: bisque;
+}
+
+#session-increment:hover {
+    background-color: bisque;
+}
+
+.arrow-up {
+    border: solid black;
+    border-width: 0px 10px 10px 0;
+    padding: 10px;
+    display: inline-flex;
+    transform: rotate(225deg);
+    margin-left: 10px
+}
+
+.arrow-down {
+    border: solid black;
+    border-width: 0px 10px 10px 0;
+    padding: 10px;
+    display: inline-flex;
+    transform: rotate(45deg);
+    margin-left: 10px
+}
+
+#timer-label {
+    font-size: 40px;
+    margin-left: 70%
+}
+
+#start_stop,
+#time-left {
+    font-size: 50px;
+    margin-left: 70%
+}
+
+#stop,
+#reset {
+    font-size: 50px
+}
